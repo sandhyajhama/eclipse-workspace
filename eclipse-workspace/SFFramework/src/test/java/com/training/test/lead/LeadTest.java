@@ -26,7 +26,6 @@ public class LeadTest extends BaseTest{
 	LeadPage Leadpage;
 	CommonUtilities common = new CommonUtilities();
 	
-
 	@BeforeMethod
 	public void beforetest() throws Exception {
 		

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sales Fource TestNG(failed)">
+    <classes>
+      <class name="salesforceTestng.SalesfourceTestingTest2">
+        <methods>
+          <include name="velidate"/>
+        </methods>
+      </class> <!-- salesforceTestng.SalesfourceTestingTest2 -->
+      <class name="salesforceTestng.SalesforceTestngTest1">
+        <methods>
+          <include name="velidate"/>
+        </methods>
+      </class> <!-- salesforceTestng.SalesforceTestngTest1 -->
+      <class name="salesforceTestng.SalesfourceTestingTest3">
+        <methods>
+          <include name="velidate"/>
+        </methods>
+      </class> <!-- salesforceTestng.SalesfourceTestingTest3 -->
+      <class name="salesforceTestng.SalesforceTestingTest5">
+        <methods>
+          <include name="velidate"/>
+        </methods>
+      </class> <!-- salesforceTestng.SalesforceTestingTest5 -->
+      <class name="salesforceTestng.SalesforceTestingTest4">
+        <methods>
+          <include name="velidate"/>
+        </methods>
+      </class> <!-- salesforceTestng.SalesforceTestingTest4 -->
+    </classes>
+  </test> <!-- Sales Fource TestNG(failed) -->
+</suite> <!-- Failed suite [Suite] -->

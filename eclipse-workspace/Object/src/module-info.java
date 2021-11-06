@@ -1,0 +1,3 @@
+module Object {
+	exports Object;
+}
