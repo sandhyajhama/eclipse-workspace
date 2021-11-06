@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.training.test.contact.ContactTest">
+        <methods>
+          <include name="beforetest"/>
+          <include name="MyContact"/>
+          <include name="ContactName"/>
+          <include name="ContactTab"/>
+        </methods>
+      </class> <!-- com.training.test.contact.ContactTest -->
+      <class name="com.training.test.home.HomeTest">
+        <methods>
+          <include name="Post"/>
+          <include name="DisplayNLayout"/>
+          <include name="Displayusermenu"/>
+          <include name="beforetest"/>
+          <include name="Misc2"/>
+          <include name="CheckRecurrence"/>
+          <include name="Date"/>
+        </methods>
+      </class> <!-- com.training.test.home.HomeTest -->
+      <class name="com.training.test.account.AccountTest">
+        <methods>
+          <include name="AccountView"/>
+          <include name="Accounview"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.training.test.account.AccountTest -->
+      <class name="com.training.test.lead.LeadTest">
+        <methods>
+          <include name="CreateNewLead"/>
+          <include name="beforetest"/>
+          <include name="Lead"/>
+        </methods>
+      </class> <!-- com.training.test.lead.LeadTest -->
+      <class name="com.training.test.opportunity.opportuntyTest">
+        <methods>
+          <include name="OpportunityTest"/>
+          <include name="StuckOpportunity"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.training.test.opportunity.opportuntyTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
